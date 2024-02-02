@@ -96,43 +96,43 @@ if options == "Image Processor":
 elif options == "Demo":
     st.header("Here You can see How it look like after being processed")
     if st.button("details_of_an_image"):
-        w.show_images(r"images\details_of_an_image1.png", r"images\details_of_an_image2.png")
+        w.show_images("images/details_of_an_image1.png", "images/details_of_an_image2.png")
     
     if st.button("rotating_an_image"):
-        w.show_images(r"images\rotating_an_image1.png", r"images\rotating_an_image2.png")
+        w.show_images("images/rotating_an_image1.png", "images/rotating_an_image2.png")
     
     if st.button("negative_of_an_image"):
-        w.show_images(r"images\details_of_an_image1.png", r"images\negative_of_an_image.png")
+        w.show_images("images/details_of_an_image1.png", "images/negative_of_an_image.png")
     
     if st.button("trim_image"):
-        w.show_images(r"images\details_of_an_image1.png", r"images\trim_image.png")
+        w.show_images("images/details_of_an_image1.png", "images/trim_image.png")
     
     if st.button("flip_image"):
-        w.show_images(r"images\details_of_an_image1.png", r"images\flip_image.png")
+        w.show_images("images/details_of_an_image1.png", "images/flip_image.png")
     
     if st.button("blending_two_images"):
-        w.show_images(r"images\details_of_an_image1.png", r"images\show_blend.png")
+        w.show_images("images/details_of_an_image1.png", "images/show_blend.png")
     
     if st.button("add_frame_to_an_image"):
-        w.show_images(r"images\details_of_an_image1.png", r"images\add_frame_to_an_image.png")
+        w.show_images("images/details_of_an_image1.png", "images/add_frame_to_an_image.png")
     
     if st.button("rgb_channels"):
-        w.show_images(r"images\details_of_an_image1.png", r"images\rgb_channels.png")
+        w.show_images("images/details_of_an_image1.png", "images/rgb_channels.png")
     
     if st.button("pasting_with_slice"):
-        w.show_images(r"images\pasting_with_slice1.png", r"images\pasting_with_slice.png")
+        w.show_images("images/Emma.png", "images/pasting_with_slice.png")
     
     if st.button("binarize_image"):
-        w.show_images(r"images\Emma.png", r"images\binarize_image.png")
+        w.show_images("images/Emma.png", "images/binarize_image.png")
     
     if st.button("pixel_intensity"):
-        w.show_images(r"images\details_of_an_image1.png", r"images\pixel_intensity.png")
+        w.show_images("images/details_of_an_image1.png", "images/pixel_intensity.png")
     
     if st.button("color_reduction"):
-        w.show_images(r"images\details_of_an_image1.png", r"images\color_reduction.png")
+        w.show_images("images/details_of_an_image1.png", "images/color_reduction.png")
     
     if st.button("color_enhancement"):
-        w.show_images(r"images\details_of_an_image1.png", r"images\color_enhancement.png")
+        w.show_images("images/details_of_an_image1.png", "images/color_enhancement.png")
 
 elif options == "About":
     st.header("About")

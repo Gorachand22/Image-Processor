@@ -42,7 +42,7 @@ This is a Streamlit web application for processing images. It provides various i
 
 ## Demo
 
-You can find a live demo of the app [Image-Processor](https://your-app-url.com).
+You can find a live demo of the app [Image-Processor](https://image-proceappr-eh35u6oypccdchdjp22vgg.streamlit.app/).
 
 ## Contributing
 
