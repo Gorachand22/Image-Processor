@@ -47,3 +47,7 @@ You can find a live demo of the app [Image-Processor](https://image-proceappr-eh
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
+
+## Special Thanks
+
+A special thanks to [Nitish Singh](https://github.com/campusx-official) for his exceptional teaching on numpy and image processing by opencv-python. His insights have been invaluable in the development of this project.
